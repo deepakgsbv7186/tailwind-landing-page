@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Landing | Page</title>
+</head>
+
+<body class="antialiased">
+    <!-- Start Brand Logo -->
+    <header class="flex items-center p-4 gap-6 w-full fixed top-0 bg-slate-800 bg-opacity-80 shadow-xl">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 text-white">
+            <path fill-rule="evenodd"
+                d="M14.447 3.027a.75.75 0 01.527.92l-4.5 16.5a.75.75 0 01-1.448-.394l4.5-16.5a.75.75 0 01.921-.526zM16.72 6.22a.75.75 0 011.06 0l5.25 5.25a.75.75 0 010 1.06l-5.25 5.25a.75.75 0 11-1.06-1.06L21.44 12l-4.72-4.72a.75.75 0 010-1.06zm-9.44 0a.75.75 0 010 1.06L2.56 12l4.72 4.72a.75.75 0 11-1.06 1.06L.97 12.53a.75.75 0 010-1.06l5.25-5.25a.75.75 0 011.06 0z"
+                clip-rule="evenodd" />
+        </svg>
+
+        <h2 class="text-secondary font-semibold text-3xl">Code With Me</h2>
+    </header>
+    <!-- End Brand Logo -->
+    <section class="flex flex-col my-28 px-8 lg:px-16 max-w-screen-2xl min-h-screen">
+        <section class="flex p-4 max-lg:flex-col max-lg:gap-8">
+            <!-- Start Hero Section -->
+            <section class="flex-1">
+
+                <!-- Description -->
+                <div
+                    class="flex flex-col gap-4 p-4 w-full border border-primary lg:rounded-r-none lg:border-r-0 rounded-lg shadow-lg">
+                    <!-- imgage of code -->
+                    <div class="flex flex-col items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                            class="w-36 h-36 mt-12 text-primary text-center">
+                            <path fill-rule="evenodd"
+                                d="M2.25 6a3 3 0 013-3h13.5a3 3 0 013 3v12a3 3 0 01-3 3H5.25a3 3 0 01-3-3V6zm3.97.97a.75.75 0 011.06 0l2.25 2.25a.75.75 0 010 1.06l-2.25 2.25a.75.75 0 01-1.06-1.06l1.72-1.72-1.72-1.72a.75.75 0 010-1.06zm4.28 4.28a.75.75 0 000 1.5h3a.75.75 0 000-1.5h-3z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <h3 class="text-secondary text-center font-semibold text-2xl my-2">Just Follow the Rythm...</h3>
+                    <p class="text-xl text-ellipsis">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem at voluptatum, dignissimos
+                        quam
+                        porro,
+                        vitae molestiae enim, accusamus dolorum modi eum esse molestias eaque deleniti ea debitis
+                        pariatur
+                        dolorem
+                        dolor.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem at voluptatum, dignissimos
+                        quam
+                        porro,
+                        dolor.
+                    </p>
+                    <!-- Ratings -->
+                    <span class="text-primary text-start font-semibold">Ratings : 4.5/5
+                        &#9733;&#9733;&#9733;&#9733;✬</span>
+                </div>
+            </section>
+            <!-- End Hero Section -->
+            <!-- Start Subscribe -->
+            <section class="flex-1">
+                <!-- mail logo -->
+                <div
+                    class="flex flex-col justify-center items-center gap-4 p-8 border border-primary h-full w-full lg:border-l-0 lg:rounded-l-none rounded-lg shadow-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-16 h-16 text-primary">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                    </svg>
+                    <h3 class="text-lg font-semibold text-center mt-4">Want to build responsive webapp!</h3>
+                    <!-- form with button -->
+                    <form action="" class="flex w-full max-lg:flex-col max-lg:gap-4">
+                        <input type="email" name="connect"
+                            class="flex flex-grow border border-primary outline-none p-2 rounded-md lg:rounded-r-none"
+                            placeholder="your email please..." />
+                        <button name="connect"
+                            class="bg-secondary text-white py-2 lg:px-4 rounded-md lg:rounded-l-none font-semibold">Let's
+                            Connect</button>
+                    </form>
+                </div>
+            </section>
+            <!-- End Subscribe -->
+        </section>
+    </section>
+    <!-- Start Footer -->
+    <footer class="py-4 bg-primary">
+        <ul
+            class="flex w-full max-lg:flex-col gap-8 max-lg:justify-evenly text-white justify-center items-center p-4 text-lg">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">How To?</a></li>
+        </ul>
+    </footer>
+    <!-- End Footer -->
+</body>
+
+</html>
